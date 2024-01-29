@@ -1,38 +1,6 @@
-# Welcome to Remix!
+# Remix Passkey Test
 
-- [Remix Docs](https://remix.run/docs)
-
-## Development
-
-From your terminal:
-
-```sh
-npm run dev
-```
-
-This starts your app in development mode, rebuilding assets on file changes.
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
+`git clone https://github.com/spencersolberg/remix-passkey-test && cd remix-passkey-test`
+`npm i` or `bun i`
+`npx prisma db push` or `bunx prisma db push`
+`npm run dev` or `bun run dev`
